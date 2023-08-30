@@ -128,8 +128,8 @@ def refresh():
     global blocks, enemies, underblocks, undercoins
     global coinCount, playerX, playerY, yWall, yWall2
     global starttimer, dieAni, animation, aniIterations 
-    global state, height, gameover, startScreen
-    blocks = []; enemies = []; underblocks = []; undercoins = []
+    global state, height, gameover, startScreen, items
+    blocks = []; enemies = []; underblocks = []; undercoins = []; items = []
     playerX = 150; playerY = 700-height
     coinCount = 0
     starttimer = 100 
