@@ -276,6 +276,8 @@ while running:
             playerY -= velocity 
             velocity -= acceleration
         else: 
+            moveLeft = False
+            moveRight = False
             if enterPipe: 
                 playerY += 4
                 playerX = pipeX
